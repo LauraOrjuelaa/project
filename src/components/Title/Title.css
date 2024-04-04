@@ -1,0 +1,20 @@
+.title-container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    font-family: "Marmelad", sans-serif;
+    font-size: medium;
+    font-style: normal;
+  }
+  
+  .title-text {
+    margin-right: 30px;
+  }
+  
+  .title-line {
+    flex: 1;
+    height: 3px;
+    border: none;
+    background-color: #C1D72F;
+  }
+  
