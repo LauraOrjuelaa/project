@@ -1,7 +1,6 @@
 import './Card.css'
 import PropTypes from 'prop-types';
 import Logo from '../../assets/logo.png'
-
 import {  useDispatch, useSelector } from 'react-redux';
 import { removeUser } from '../../slices/newUser/newUser.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -36,8 +35,6 @@ function Card({ user }) {
     </div>
   );
 }
-
-
 Card.propTypes = {
   user: PropTypes.object.isRequired,
 };
